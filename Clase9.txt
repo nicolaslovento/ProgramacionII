@@ -1,0 +1,7 @@
+ejercicio paleta y tempera. en el + agregamos tempera y mostramos.
+El usuario debera seleccionar la tempera y pulsar -.
+En el texto multile selecciono con el mouse(pintar de azul)luego hacer click en -->
+Obtengo el indice ()Selectedtext->retorna string(lo q yo pinte).Recorro todas las lineas(text.lines->
+devuelve un array de string por cad alinea e mi textbox)-> y recorro con foreach(string in this.textbox.lines y poner un contador
+para obtener indice)->Y mostrar indice y texto con message box.
+Ahora una vez q tengo el indice. Invocamos nuevamente a frm tempera pero con los datos cargados. 
