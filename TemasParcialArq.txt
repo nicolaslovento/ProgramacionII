@@ -1,0 +1,41 @@
+Todos los comandos de linux vistos.
+Lenguajes de programacion.
+Elementos fundamentales de los sistemas operativos.
+Licencias de software.
+Virtualizacion.
+Estructura de directorio y punto de montaje.
+
+Clase 28-09:
+Lvm
+Subdirectorios:
+(compartidos y no compartidos)(Dinamicos y estaticos)Los est son las bibliotecas y los dinamicos los que van cambiando cuando 
+hacemos procesos en el sistema.
+SUBDIRECTORIO ESTATICOS
+/root
+.Bin binarios
+sbin lo mismo pero para el adm
+opt(virtual box)->si la quiero configurar ETC
+boot(todo lo q se ejecuta en el arranque)
+
+DINAMICOS
+var(archivos temporales,variables de mis aplicacion,log)
+etc(archivos de configuracion de las apps estaticas)
+proc(todo lo que pasa en mi sistemas actualizado constantemente)
+
+En media se guardan los puntos de montaje.
+
+ln enlace fisico con el mismo inodo.
+ln saludar.txt otro.txt
+ln .s otro.txt nuevo.txt
+
+archivos tar 
+
+tar -cf (nombre) archivos(comprime los arcdhivos )
+tar -td nombre(muestra los archivos)
+tar -cvf nombre.tgz --totals carpeta/archivo (el totals muestra el tamaño) el cVf(la v(view) muestra los archivos que se comprimen.
+---------------------
+
+Permisos:
+Ejecutar/modificar/leerlo
+-(---)(---)(---)
+
