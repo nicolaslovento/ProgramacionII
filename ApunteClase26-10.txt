@@ -1,0 +1,19 @@
+Memoria: Medio que nos permite almacenar distinta informacion, puede ser electronica o de cualquier tipo(Despues convertido a binario).
+Tienen dos tipos de acceso: Acceso secuencial y acceso aleatorio.
+Secuencial: nos permite hacer algoritmio de punteros.(Despues de la posicion de memoria 39 viene la 40).
+Aleatorio: Me permite poder acceder al 1 y al 100 sin haber recorrido todos los numeros hasta llegar al 100.
+Las primeras memorias eran secuenciales.
+Nivel de memorias.
+Rom de control: Circuitos logicos integrados a la computadora,escribe y lee sobre el registro
+Registro de cpu: 
+Memorias cache:
+Memo RAM:
+ALmacenamientos no volatiles:Disco rigido, pendrive,cd,DVD,tarjeta SD.
+Disferencias: Tamaño , velocidad de acceso.
+*Arquiotecturas RISC y SISK.
+Memoria virtual: CUando se ocupa toda la mem RAM.
+Particion del disco: HAcemos divisiones. nos permiten tenes muchas particiones.
+RAID:
+RAID 1: utiliza dos discos como espejos(No se suman las capacidades)
+RAID 0: Tiene parte de ijnformacion en un disco y parte en el otro.(Se suman las capacidades)
+RAID 5: 
