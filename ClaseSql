@@ -1,0 +1,13 @@
+Clase 06/11.
+Introducción a sql.
+-Base de datos relacional: conjunto de tablas que se relacionan entre si. La idea es generar una relacion de datos entre las tablas.
+-A su vez las tablas son una coleccion de columnas n a n columnas. Cada una de las columnas pueden ser de un dato distinto al anterior.
+-El tipo de dato varchar es una cadena variable de caracteres(Cualquier dato). Le voy a dar el maximo de caracteres. Se va achicando en base al contenido guardado.
+-Llave dorada es la primery key: Asegura que ningun valor de esa columna de va a poder repetir en los n registros que tenga la tabla(Sera unico y nunca nulo), está indexeado.
+Instruccion select: me permite seleccionar columnas de mi base de datos.
+Sintaxis: SELECT campo1,campo2,...,campo n. Con el * Muestra todas las columnas. Con el AS cambio el alias.
+FROM: me indica de donde voy a sacar la informacion de los campos(Nombre de la tabla). El motor va a verificar que los datos pasados existan, sino lanzará
+una excepción.
+Funcion TOP: verifica en la cantidad especificada.
+WHERE: restringe los datos, donde puedo colocar condiciones,puedo utilizar operadores logicos.
+Ordenamientos segun criterio: ORDER BY precio DESC/ASC
