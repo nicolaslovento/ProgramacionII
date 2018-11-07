@@ -10,4 +10,8 @@ FROM: me indica de donde voy a sacar la informacion de los campos(Nombre de la t
 una excepción.
 Funcion TOP: verifica en la cantidad especificada.
 WHERE: restringe los datos, donde puedo colocar condiciones,puedo utilizar operadores logicos.
-Ordenamientos segun criterio: ORDER BY precio DESC/ASC
+Ordenamientos segun criterio: ORDER BY precio DESC/ASC.
+
+Clase 07/11
+Modificar BD: UPDATE TABLA SET campo1=valor1,campo2=valor,campon=valorn(Update masivo)
+SIEMPRE COLOCAR RESTRICCION: UPDATE TABLA SET campo1=valor1,campo2=valor,campon=valorn WHERE campoid=valorid(Primary key)
